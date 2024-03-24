@@ -1,18 +1,28 @@
 var subtitles = {
-	T_9911: {
+	T_13147: {
 		lang: "en",
 		name: "English",
 		tracks: [
-			//from		To			Text
 			T(TTime("00:00:00.000:00"), TTime("00:00:03.000:00"), "Kun tekst, der er relevant for opgavebesvarelsen, er tekstet til talesyntese."),
-			T(TTime("00:00:03.500:00"), TTime("00:00:07.000:00"), "Simon Hyllested <br/>Foto: Tobias Meier"),
-			T(TTime("00:00:15.000:00"), TTime("00:00:17.500:00"), "William Frederik Thomsen <br/>Elev i 8.Klasse, Th. Langs skole, Silkeborg"),
-			T(TTime("00:00:20.500:00"), TTime("00:00:22.000:00"), "Amalie Vinding Nielsen <br/>Elev i 8.Klasse, Th. Langs skole, Silkeborg"),
-			T(TTime("00:00:22.500:00"), TTime("00:00:24.000:00"), "Sylvester Runekilde Hansen <br/>Elev i 8.Klasse, Th. Langs skole, Silkeborg"),
-
-
-		]		
+			T(TTime("00:00:03.040:00"), TTime("00:00:04.840:00"), "GOLDEN")
+		]
 	},
+	T_13584: {
+		lang: "en",
+		name: "English",
+		tracks: [
+			T(TTime("00:00:00.000:00"), TTime("00:00:03.000:00"), "Kun tekst, der er relevant for opgavebesvarelsen, er tekstet til talesyntese."),
+			T(TTime("00:00:03.000:00"), TTime("00:00:06.800:00"), "Sundskolen")
+		]
+	},
+	T_15261: {
+		lang: "en",
+		name: "English",
+		tracks: [
+			T(TTime("00:00:00.000:00"), TTime("00:00:03.000:00"), "Kun tekst, der er relevant for opgavebesvarelsen, er tekstet til talesyntese."),
+			T(TTime("00:00:03.680:00"), TTime("00:00:05.880:00"), "Matilde")
+		]
+	}
 };
 
 /**
@@ -54,7 +64,7 @@ function ATime() {
 /**
  * If value is undefined returns 0
  * *//*@param {*} value *//*
- */
+*/
 function UndefinedToZero(value) {
 	if (typeof value === "undefined") {
 		return 0;
